@@ -53,3 +53,11 @@ Mod Tapはタップで視程したキー、長押しで視程したレイヤー�
 - RGB_SAD: Saturation- 色の濃さを変更
 - RGB_VAI: Value+ 明るさを変更
 - RGB_VAD: Value- 明るさを変更
+
+
+## ビルドと書き込み
+```
+qmk compile -kb treadstone32:lite -km hedeyoshi
+
+qmk flash -kb treadstone32:lite -km hedeyoshi
+```
